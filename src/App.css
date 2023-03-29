@@ -15,6 +15,11 @@
   height: 30px;
 }
 
+.images {
+  width: 150px;
+  height: 150px;
+  margin-right:1em;
+}
 ul {
   list-style: none;
   margin: 25px 50px 75px 30px;
@@ -42,4 +47,43 @@ li.main-list {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.home-link {
+  border: 1px dotted white;
+  background: #1d1f1d;
+  width: 75px;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: wrap;
+  align-items: top;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.coin-table {
+  margin-left: 0;
+}
+
+th {
+  text-align: left;
+  vertical-align: top;
+}
+
+td {
+  text-align: left;
+  padding-left: 2.5em;
+  vertical-align: top;
+}
+
+.notFound {
+  padding-top: 200px;
 }

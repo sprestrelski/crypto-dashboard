@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <div className="main">
-        <h1>crypto dashboard</h1>
+        <h1>Crypto Dashboard</h1>
           <input
             type="text"
             placeholder="Search..."
@@ -72,7 +72,6 @@ function App() {
           </ul>
       </div>
     
-      <SideNav/>
     </div>
   )
 }
